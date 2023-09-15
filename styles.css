@@ -1,0 +1,30 @@
+body {
+    font-size: 10px;
+    font-family: serif;
+    background-color: beige;
+    line-height: 20px;
+}
+
+header {
+    font-size: 30px;
+    text-align: center;
+    border-color: red;
+    border-style: solid;
+    font-family: sans-serif;
+}
+
+nav>ul>li {
+    border-style: solid;
+    text-decoration: none;
+    list-style-type: none;
+    border-color: red;
+}
+
+nav {
+    font-size: 2rem;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: right;
+    flex-direction: column;
+}
